@@ -19,4 +19,39 @@ body {
   background: url(../images/bg-mobile.png) top / cover no-repeat;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  background-color: var(--color3);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px;
+  border-radius: 10px 80px 10px 10px;
+  width: 250px;
+  gap: 30px;
+}
+#id { 
+  height: 40px; /*size the logo down to 40px tall*/
+  object-fit: scale-down; /*size width to match aspect ratio of image*/
+}
+
+.operations {
+  display: grid;
+  grid-template-columns: repeat(3, 50px); /*size of grid cell*/
+  grid-auto-rows: 50px;
+  align-items: center;
+  gap: 15px;
+}
+.op-icon {
+  background-color: var(--color4);
+  border-radius: 10px;
+  height: 100%; /*make icons full height of grid cell*/
+  display: flex;
+  justify-content: center;
+}
+
+.op-icon > img {
+  object-fit: none; /*keeps images at original size*/
 }
