@@ -27,7 +27,7 @@ body {
   gap: 16px;
 }
 
-.app > div {
+.menu,.status {
   background-color: var(--color3);
   color: var(--color1)
 }
@@ -75,4 +75,23 @@ body {
   align-items: center;
   padding: 33px;
   width: 259px;
+}
+
+.remaining {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--color1);
+  padding: 13px 43px;
+  border-radius: 10px;
+}
+.stat {
+  color: var(--color4);
+  font-size: 40px;
+  padding-right: 12px;
+}
+.stat-label {
+  color: var(--color2);
+  text-transform: uppercase;
+  font-size: 14px;
 }

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles/style.css">
@@ -10,10 +12,18 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-family: monospace; font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(0, 0%, 0%); }
+    .attribution {
+      font-family: monospace;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(0, 0%, 0%);
+    }
   </style>
 </head>
+
 <body>
   <div class="app">
     <div class="menu">
@@ -27,7 +37,7 @@
         </div>
         <div class="op-icon">
           <img src="./images/icon-upload.svg" alt="Upload file">
-        </div>        
+        </div>
       </div>
     </div>
     <div class="status">
@@ -35,20 +45,24 @@
         You’ve used <span class="text-bold">815 GB</span> of your storage
       </div>
       <div class="graphic">
-
+        Graphic Bar Here
       </div>
-      <div class="remaining"></div>
     </div>
-    
-    185 GB Left
-    
+    <div class="remaining">
+      <span class="stat text-bold">185</span>
+      <span class="stat-label text-bold">GB Left</span>
+    </div>
+
+
+
     0 GB
     1000 GB
-    
+
   </div>
-    <!-- <div class="attribution">
+  <!-- <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://loganwoolf.github.io/">Logan Woolf</a>.
     </div> -->
-  </body>
+</body>
+
 </html>
