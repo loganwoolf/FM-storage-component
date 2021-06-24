@@ -8,6 +8,9 @@
 
   --bar: linear-gradient(90deg, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 100%);
 }
+.text-bold {
+  font-weight: 700;
+}
 body {
   margin: 0;
   font-size: 14px;
@@ -21,17 +24,26 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 16px;
 }
-.menu {
+
+.app > div {
   background-color: var(--color3);
+  color: var(--color1)
+}
+
+/* -- -- Menu Components -- -- */
+
+.menu {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 40px;
   border-radius: 10px 80px 10px 10px;
+  padding: 40px;
   width: 245px; /*width of menu minus padding*/
   gap: 33px; /*space between logo and operation buttons*/
 }
+
 #id { 
   height: 40px; /*size the logo down to 40px tall*/
   object-fit: scale-down; /*size width to match aspect ratio of image*/
@@ -51,7 +63,16 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .op-icon > img {
   object-fit: none; /*keeps images at original size*/
+}
+
+/* -- -- Status Components -- -- */
+
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px;
+  width: 255px;
 }
