@@ -27,10 +27,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 35px;
+  padding: 40px;
   border-radius: 10px 80px 10px 10px;
-  width: 250px;
-  gap: 30px;
+  width: 245px; /*width of menu minus padding*/
+  gap: 33px; /*space between logo and operation buttons*/
 }
 #id { 
   height: 40px; /*size the logo down to 40px tall*/
@@ -39,14 +39,14 @@ body {
 
 .operations {
   display: grid;
-  grid-template-columns: repeat(3, 50px); /*size of grid cell*/
-  grid-auto-rows: 50px;
+  grid-template-columns: repeat(3, 48px); /*size of grid cell*/
+  grid-auto-rows: 48px;
   align-items: center;
   gap: 15px;
 }
 .op-icon {
   background-color: var(--color4);
-  border-radius: 10px;
+  border-radius: 8px;
   height: 100%; /*make icons full height of grid cell*/
   display: flex;
   justify-content: center;
