@@ -78,6 +78,7 @@ body {
   padding: 33px;
   width: 259px;
   /*Use box-sizing: border-box next time*/
+  position: relative;
 }
 
 .meter {
@@ -114,26 +115,33 @@ body {
   width: 100%;
   justify-content: space-between;
   font-weight: 700;
+  padding-bottom: 12px;
 }
 
 
 /* -- -- Memory Remaining Card -- -- */
 
 .remaining {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   background-color: var(--color1);
-  padding: 13px 43px;
+  /* padding: 13px 43px; */
   border-radius: 10px;
+  width: 180px;
+  height: 72px;
+  position: absolute;
+  top: 124px;
 }
 .stat {
   color: var(--color4);
-  font-size: 40px;
+  font-size: 36px;
   padding-right: 12px;
 }
 .stat-label {
   color: var(--color2);
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
 }
