@@ -150,7 +150,7 @@ body {
 
 @media (min-width: 700px) {
   body {
-    background: var(--color4) url(../images/bg-desktop.png) bottom center / 100% no-repeat;
+    background: var(--color4) url(../images/bg-desktop.png) 0 45vh / contain no-repeat;
     height: 70vh;
   }
   .app {
