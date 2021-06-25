@@ -15,8 +15,6 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -32,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Fylo Storage Component by Logan Woolf](https://www.frontendmentor.io/solutions/nice-progress-bar-poor-desktop-background-zdXiFcr7L)
 - Live Site URL: [https://loganwoolf.github.io/FM-storage-component/](https://loganwoolf.github.io/FM-storage-component/)
 
 ## My process
